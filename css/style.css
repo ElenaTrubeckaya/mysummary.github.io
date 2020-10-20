@@ -287,7 +287,7 @@ body.lock {
   width: 100%;
   margin: 0 -15px;
   padding: 80px 0 0 0;
-  max-height: 550px;
+  min-height: 550px;
   height: 100%;
 }
 
@@ -788,8 +788,13 @@ left: 25px;
   .blockone__content {
     flex-wrap: wrap;
     padding: 10px 0 0 0;
+    height: 100%;
+    width: 100%;
   }
   .blockone__item {
+    width: 100%;
+    height: 100%;
+    max-height: auto;
   
     }
     .accordion_head {
