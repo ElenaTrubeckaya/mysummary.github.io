@@ -1,0 +1,598 @@
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>Моё резюме</title>
+	<!--Иконка вкладки-->
+	<link rel="shortcut icon" href="img/lis16x16.ico">
+	<!-- Таблица стилей -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	
+	<!--Общий контейнер-->
+	<div class="wrapper">
+		<!-- Подключение шапки -->
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__body">
+                    <a href="#" class="header__logo">
+<img src="img/lis.png">
+                    </a>
+                    <div class="header__burger">
+                      <span></span>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li>
+                                <a class="header__link" href="#">Наведи на меня</a>
+                                
+                                <ul id="header__list-submenu" class="header__list-submenu">
+                           <li>
+                               <a href="#" class="submenu__link" data-scroll="#blockone">
+                                Аккордион и Форма
+                               </a>
+                           </li>
+
+                           <li>
+                               <a href="#" class="submenu__link" data-scroll="#blocktwo">
+                                Адаптивные картинки
+                               </a>
+                           </li>
+
+                           <li>
+                               <a href="#" class="submenu__link" data-scroll="#blockthird">
+                                Слайдер
+                               </a>
+                           </li>
+                           <li>
+                               <a href="#" class="submenu__link" data-scroll="#blockfourth">
+                                Карта
+                               </a>
+                           </li>
+                           
+                           <li>
+                               <a href="#" class="submenu__link" data-scroll="#footer">
+                                Footer
+                               </a>
+                           </li>
+                       </ul>
+                            </li>
+
+                            <li>
+                                <a href="letter.html" class="header__link">Письмо вам</a>
+                            </li>
+
+                        </ul>
+                    </nav>
+                </div>
+			</div>
+		</header>
+<!-- 1й блок -->
+		<div id="blockone" class="blockone">
+			<!-- Паттерн с границей -->
+			<div class="container">
+
+				<!--Контент 1го блока-->
+		<div class="blockone__content">
+
+			<!-- Элемент 1 -->
+				<div class="blockone__item">
+					<!--СПОЙЛЕР/АККАРДИОН(wrapper) ОСНОВНОЙ-->
+<div  class="accordion one">
+<div class="blockone__title">Меню аккордион/спойлер</div>
+
+<!--WRAPPER ДЛЯ 1ГО ПУНКТА МЕНЮ-->
+<div class="accordion_item">
+
+<!--ШАПКА 1го ПУНКТА С ИКОНКОЙ И ЗАГОЛОВКОМ-->
+<div class="accordion_head">
+
+<!--1я ИКОНКА-->
+<div class="accordion_icon">
+<img src="img/lis.png"></div>
+
+<!--1й ЗАГОЛОВОК-->
+<div class="accordion_title">Кликни</div>
+
+</div><!--КОНЕЦ ШАПКИ 1го ПУНКТА-->
+
+
+<!--ТЕКСТ ПОД 1й ШАПКОЙ СКРЫТ В МЕНЮ СПОЙЛЕРЕ-->
+<div class="accordion_text">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p></div><!--КОНЕЦ ТЕКСТА в 1м пункте меню-->
+
+</div> <!--КОНЕЦ 1го ПУНКТА МЕНЮ-->
+
+
+<!-- ПУНК МЕНЮ 2й-->
+<div class="accordion_item">
+
+<!--ШАПКА ПУНКТА 2-->
+<div class="accordion_head">
+
+<!--2я ИКОНКА -->
+<div class="accordion_icon">
+<img src="img/lis.png">
+</div>
+
+<!--2й ЗАГОЛОВОК-->
+<div class="accordion_title">Клик</div>
+
+</div><!--КОНЕЦ ШАПКИ ПУНКТА 2-->
+
+<!--ТЕКСТ ПОД 2й ШАПКОЙ ТАК ЖЕ СКРЫТ-->
+<div class="accordion_text">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p></div><!--КОНЕЦ ТЕКСТА под 2й шапкой-->
+
+</div><!--КОНЕЦ ПУНКТА МЕНЮ 2-->
+
+<!--3й ПУНКТ МЕНЮ-->
+<div class="accordion_item">
+
+<!--ШАПКА 3го ПУНКТА-->
+<div class="accordion_head">
+
+<!--3я иконка-->
+<div class="accordion_icon">
+<img src="img/lis.png">
+</div>
+
+<!--3й заголовок-->
+<div class="accordion_title">И ещё клик</div>
+
+</div><!--конец шапки 3го пункта-->
+
+<!--ТЕКСТ ПОД 3й ШАПКОЙ скрыт-->
+<div class="accordion_text">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+</div><!--КОНЕЦ ТЕКСТА-->
+
+</div><!--КОНЕЦ ПУНКТА МЕНЮ 3-->
+
+</div> <!-- КОНЕЦ АККАРДИОН -->
+
+				</div>
+
+				<!--Элемент 2-->
+				<div class="blockone__item">
+			
+		<form action="#" class="block-form">
+			
+				<div class="block-form__title">Пример формы</div>
+			
+			<div class="block-form__input">
+					
+			<div class="checkbox">Checkbox
+			<input type="checkbox" name="namecheckbox_1">
+			</div>
+					
+			</div>
+			
+				
+			<div class="block-form__input">
+					
+			<div class="checkbox">Умение менять их
+			<input type="checkbox" checked name="namecheckbox_2">
+			</div>
+					
+			</div>
+			
+			
+			<div class="block-form__input">
+			
+			<div class="radiobuttons">
+			
+			<div class="radiobuttons__item">
+			Радиокнопки
+			<input type="radio" value="1" checked name="nameradio">
+			</div>
+				
+			<div class="radiobuttons__item">
+			Умение менять их
+			<input type="radio" value="2" name="nameradio">
+			</div>
+				
+			<div class="radiobuttons__item">
+			Клик
+			<input type="radio" value="3" name="nameradio">
+			</div>
+					
+			</div>
+				
+			</div>
+			
+			<button class="button" type="submit"><span>
+				Кнопка
+			</span>
+			
+			</button>
+			</form>
+			
+				</div>
+
+		</div><!--/Контент 1го блока-->
+			</div><!--/Паттерн с границей -->
+		</div><!--/1й блок-->
+
+		<!-- 2й блок -->
+		<div id="blocktwo" class="blocktwo">
+			
+			<div class="container">
+				<!-- Контент -->
+				<div  class="content">
+				<section class="text">
+					
+				<h2 class="text__title title">Адаптивные картинки</h2>
+					
+					
+					<div class="text__image">
+						<picture>
+							<source srcset="img/1300x400.jpg" type="image/jpeg" media="(min-width:1330px)">
+							<source srcset="img/800x400.jpg" type="image/jpeg" media="(min-width:992px)">
+							<source srcset="img/400x600.jpg" type="image/jpeg" media="(max-width:992px)">
+							<img src="img/1300x400.jpg" alt="">
+						</picture>
+					</div>
+					<div class="text__value">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex. Nostrum sunt sequi debitis exercitationem. Iure laboriosam quis nam sit quam ratione, omnis culpa, in pariatur suscipit atque nesciunt adipisci.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex. Nostrum sunt sequi debitis exercitationem. Iure laboriosam quis nam sit quam ratione, omnis culpa, in pariatur suscipit atque nesciunt adipisci.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex. Nostrum sunt sequi debitis exercitationem. Iure laboriosam quis nam sit quam ratione, omnis culpa, in pariatur suscipit atque nesciunt adipisci.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex. Nostrum sunt sequi debitis exercitationem. Iure laboriosam quis nam sit quam ratione, omnis culpa, in pariatur suscipit atque nesciunt adipisci.</p>
+					</div>
+					<div class="text__image">
+						<img src="img/800x400.jpg" alt="">
+					</div>
+					<div class="text__value">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex. Nostrum sunt sequi debitis exercitationem. Iure laboriosam quis nam sit quam ratione, omnis culpa, in pariatur suscipit atque nesciunt adipisci.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex. Nostrum sunt sequi debitis exercitationem. Iure laboriosam quis nam sit quam ratione, omnis culpa, in pariatur suscipit atque nesciunt adipisci.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex. Nostrum sunt sequi debitis exercitationem. Iure laboriosam quis nam sit quam ratione, omnis culpa, in pariatur suscipit atque nesciunt adipisci.</p>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, ex. Nostrum sunt sequi debitis exercitationem. Iure laboriosam quis nam sit quam ratione, omnis culpa, in pariatur suscipit atque nesciunt adipisci.</p>
+					</div>
+				</section>
+				<section class="cards">
+					<h2 class="cards__title title">В карточках (три колонки)</h2>
+					<div class="cards__row">
+						<div class="cards__column">
+							<div class="cards__item">
+								<div class="cards__image">
+									<img src="img/800x400.jpg" alt="">
+								</div>
+								<div class="cards__body">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti a voluptatibus autem eaque aut nisi quis ex sequi! Ducimus necessitatibus deleniti mollitia ex dignissimos odio obcaecati totam est nesciunt?
+								</div>
+							</div>
+						</div>
+						<div class="cards__column">
+							<div class="cards__item">
+								<div class="cards__image">
+									<img src="img/400x600.jpg" alt="">
+								</div>
+								<div class="cards__body">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti a voluptatibus autem eaque aut nisi quis ex sequi! Ducimus necessitatibus deleniti mollitia ex dignissimos odio obcaecati totam est nesciunt?
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti a voluptatibus autem eaque aut nisi quis ex sequi! Ducimus necessitatibus deleniti mollitia ex dignissimos odio obcaecati totam est nesciunt?
+								</div>
+							</div>
+						</div>
+						<div class="cards__column">
+							<div class="cards__item">
+								<div class="cards__image">
+									<img src="img/1300x200.jpg" alt="">
+								</div>
+								<div class="cards__body">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam corrupti a voluptatibus autem eaque aut nisi quis ex sequi! Ducimus necessitatibus deleniti mollitia ex dignissimos odio obcaecati totam est nesciunt?
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="items">
+					<h2 class="items__title title">В карточках (в ряд)</h2>
+					<div class="items__item">
+						<div class="items__image">
+							<img src="img/1300x400.jpg" alt="">
+						</div>
+						<div class="items__body">
+							<div class="items__label">Заголовок</div>
+							<div class="items__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quam tempore ea animi quo nemo quasi quaerat voluptatem magni perferendis sequi distinctio veritatis, accusantium, unde modi repellendus nostrum ut fuga.</div>
+						</div>
+					</div>
+					<div class="items__item">
+						<div class="items__image">
+							<img src="img/400x600.jpg" alt="">
+						</div>
+						<div class="items__body">
+							<div class="items__label">Заголовок</div>
+							<div class="items__text">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quam tempore ea animi quo nemo quasi quaerat voluptatem magni perferendis sequi distinctio veritatis, accusantium, unde modi repellendus nostrum ut fuga.
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quam tempore ea animi quo nemo quasi quaerat voluptatem magni perferendis sequi distinctio veritatis, accusantium, unde modi repellendus nostrum ut fuga.
+							</div>
+						</div>
+					</div>
+					<div class="items__item">
+						<div class="items__image">
+							<img src="img/800x400.jpg" alt="">
+						</div>
+						<div class="items__body">
+							<div class="items__label">Заголовок</div>
+							<div class="items__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente quam tempore ea animi quo nemo quasi quaerat voluptatem magni perferendis sequi distinctio veritatis, accusantium, unde modi repellendus nostrum ut fuga.</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			</div>
+		</div><!-- /2й блок -->
+		<!-- SLIDER -->
+		<div id="blockthird" class="blockthird">
+			<div class="wrapperslider">
+		<div class="container">
+			<div class="slider">
+				<div class="slider__item">
+				<img src="img/slider1.jpg">
+			</div>
+			<div class="slider__item">
+				<img src="img/slider2.jpg">
+			</div>
+			<div class="slider__item">
+				<img src="img/slider3.jpg">
+			</div>
+			<div class="slider__item">
+				<img src="img/slider4.jpg">
+			</div>
+			<div class="slider__item">
+				<img src="img/slider5.jpg">
+			</div>
+			</div>
+			
+		</div>
+</div>
+		</div>
+		
+		
+
+		<div id="blockfourth" class="blockfourth">
+			<div class="blockfourth__item">
+				<div id="map"></div>
+			</div>
+		</div>
+
+<footer class="footer" id="footer">
+	<div class="container">
+		<!--Область для ВСЕГО контента и колонок-->
+<div class="wrapper_footer">
+
+<!--Область 1й колонки-->
+<div class="footer_column  column--first">
+
+<!--LOGO-->
+<div class="footer_logo">
+    MySummary
+</div>
+
+<div class="footer_text">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+</div>
+
+<!--Социальные сети-->
+<div class="footer_social">
+
+<!--Шапка с заголовком-->
+<div class="footer__social-header">
+    <b>15k</b> followers
+</div>
+
+<!--Иконки соц сетей-->
+<div class="footer__social-content">
+    Социальные сети:
+
+
+<a href="https://www.facebook.com/" target="_blank">
+<img src="img/facebook.png"></a>
+
+<a href="https://google.com/" target="_blank">
+<img src="img/google.png"></a>
+
+<a href="https://www.instagram.com/" target="_blank">
+<img src="img/inst.png">
+</a>
+
+<a href="https://www.pinterest.com/" target="_blank">
+<img src="img/mail.png">
+</a>
+
+<a href="#" target="_blank">
+<img src="img/map.png">
+</a>
+
+<a href="#" target="_blank">
+<img src="img/phone.png">
+</a>
+
+<a href="https://www.youtube.com/" target="_blank">
+<img src="img/youtube.png">
+</a>
+
+</div><!--/Иконки соц сетей-->
+
+</div><!--/Социальные сети-->
+
+<!--ФОРМА Кнопка С ПОЛЕМ ТЕКСТА-->
+<form class="subscribe" action="/" method="post">
+
+<!--ПОЛЕ ТЕКСТА-->
+<input class="subscribe_input" type="email" name="Email" placeholder="Ваш ответ...">
+
+<!--ФОРМА КНОПКА-->
+<button class="subscribe_btm" type="submit">отправить</button>
+</form><!--/ФОРМА Кнопка С ПОЛЕМ ТЕКСТА-->
+
+</div><!--/Область 1й колонки-->
+
+
+<!--Область 2й колонки-->
+<div class="footer_column  column--second">
+
+<!--Заголовки в футере-->
+<div class="footer_title">Путешествия</div>
+
+<!--СТАТЬИ В БЛОГЕ-->
+<div class="footer_blogs">
+
+<!--Фото-->
+<div class="footer__blogs_foto">
+	<img class="footer_blogs_img" src="img/footerblock1.jpg">
+</div>
+
+<!--БЛОК ДЛЯ ЗАГОЛОВОКа И ДАТы-->
+<div class="footer_blogs_info">
+
+<!--ЗАГОЛОВОК-->
+<div class="footer_blogs_title">
+<a href="#">Lorem ipsum dolor sit amet,
+    consectetur adipiscing</a></div>
+
+<!--ДАТА-->
+<div class="footer_blogs_date">Jan 9, 2016</div>
+
+</div><!--/ЗАГОЛОВОК И ДАТА-->
+
+</div><!--/СТАТЬИ В БЛОГЕ-->
+
+
+<!--СТАТЬИ В БЛОГЕ 2-->
+<div class="footer_blogs">
+
+<!--Фото-->
+<div class="footer__blogs_foto">
+	<img class="footer_blogs_img" src="img/footerblock2.jpg">
+</div>
+
+<!--БЛОК ДЛЯ ЗАГОЛОВОКа И ДАТы-->
+<div class="footer_blogs_info">
+
+<!--ЗАГОЛОВОК-->
+<div class="footer_blogs_title">
+<a href="#">Consectetur adipiscing elit,
+sed do eiusmod tempor</a></div>
+
+<!--ДАТА-->
+<div class="footer_blogs_date">Jan 20, 2017</div>
+
+</div><!--/ЗАГОЛОВОК И ДАТА-->
+
+</div><!--/СТАТЬИ В БЛОГЕ 2-->
+
+
+<!--СТАТЬИ В БЛОГЕ 3-->
+<div class="footer_blogs">
+
+<!--Фото-->
+<div class="footer__blogs_foto">
+	<img class="footer_blogs_img" src="img/footerblock3.jpg">
+</div>
+
+<!--БЛОК ДЛЯ ЗАГОЛОВОКа И ДАТы-->
+<div class="footer_blogs_info">
+
+<!--ЗАГОЛОВОК-->
+<div class="footer_blogs_title">
+<a href="#">sed do eiusmod tempor
+    incididunt ut labore</a></div>
+
+<!--ДАТА-->
+<div class="footer_blogs_date">Jan 17, 2019</div>
+
+</div><!--/ЗАГОЛОВОК И ДАТА-->
+
+</div><!--/СТАТЬИ В БЛОГЕ 3-->
+
+
+</div><!--/Область 2й колонки-->
+
+
+<!--Область 3й колонки-->
+<div class="footer_column  column--third">
+
+<!--Заголовки в футере-->
+<div class="footer_title">instagram</div>
+
+<!--Блок с фото-->
+<div class="wrapper_inst">
+
+<div class="inst__image ibg">
+	<a class="instagram_item" href="https://www.instagram.com/" target="_blank">
+       <img class="inst_foto" src="img/inst1.jpg"></a>
+</div>
+   
+
+<div class="inst__image ibg">
+	<a class="instagram_item" href="https://www.instagram.com/" target="_blank">
+    <img class="inst_foto" src="img/inst2.jpg"></a>
+</div>
+
+
+<div class="inst__image ibg">
+	<a class="instagram_item" href="https://www.instagram.com/" target="_blank">
+    <img class="inst_foto" src="img/inst3.jpg"></a>
+</div>
+
+
+<div class="inst__image ibg">
+	<a class="instagram_item" href="https://www.instagram.com/" target="_blank">
+    <img class="inst_foto" src="img/inst4.jpg"></a>
+</div>
+
+<div class="inst__image ibg">
+	<a class="instagram_item" href="https://www.instagram.com/" target="_blank">
+    <img class="inst_foto" src="img/inst5.jpg"></a>
+</div>
+
+
+<div class="inst__image ibg">
+	<a class="instagram_item" href="https://www.instagram.com/" target="_blank">
+    <img class="inst_foto" src="img/inst6.jpg"></a>
+</div>
+
+
+<div class="inst__image ibg">
+	<a class="instagram_item" href="https://www.instagram.com/" target="_blank">
+    <img class="inst_foto" src="img/inst7.jpg"></a>
+</div>
+
+
+<div class="inst__image ibg">
+	<a class="instagram_item" href="https://www.instagram.com/" target="_blank">
+    <img class="inst_foto" src="img/inst8.jpg"></a>
+</div>
+
+
+<div class="inst__image ibg">
+	<a class="instagram_item" href="https://www.instagram.com/" target="_blank">
+    <img class="inst_foto" src="img/inst9.jpg"></a>
+</div>
+
+
+</div><!--/Блок с фото-->
+
+</div><!--/Область 3й колонки-->
+
+
+</div><!--/Область для контента и колонок-->
+
+	</div>
+</footer>
+	</div><!--/Общий контейнер-->
+	
+<!-- Добавляем карту -->
+<script src="https://api-maps.yandex.ru/2.1/?apikey=7c661d20-273e-4348-8139-e7f5cf97b67f&lang=ru_RU" type="text/javascript">
+</script>
+<!-- Подключаем JQvery -->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!--Слайдер-->
+<script type="text/javascript" src="js/slick.min.js"></script>
+<!--Наш файл со скриптом-->
+<script type="text/javascript" src="js/myjs.js"></script>
+</body>
+</html>
